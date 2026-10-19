@@ -20,14 +20,14 @@ References: [GitHub Actions billing](https://docs.github.com/en/billing/concepts
 
 1. Update `version` and the monotonically increasing `versionCode` in `module/module.prop`; update `doc/release-notes.md`. Keep new device support gated by exact identities.
 2. Open/review/merge the changes. CI runs tests, builds the module and uploads a temporary artifact.
-3. Tag the reviewed commit with the exact module version, prefixed by `v`:
+3. Tag the reviewed commit already merged into `main` with the exact module version, prefixed by `v`:
 
    ```sh
    git tag v0.4.0-beta.1
    git push origin v0.4.0-beta.1
    ```
 
-4. The release workflow checks tag/version agreement, runs tests, builds the ZIP and creates a **draft** release with its assets. Versions containing `-` are marked pre-release.
+4. The release workflow checks tag/version agreement and requires the tagged commit to belong to `main` history, runs tests, builds the ZIP and creates a **draft** release with its assets. Versions containing `-` are marked pre-release.
 5. Download and test that exact draft ZIP on the supported device. Review its checksums and release notes, then publish the draft in GitHub's Releases UI.
 
 A workflow failure publishes nothing automatically. It does not force-push tags or overwrite an existing release. Source code stays the current implementation; build products, private images and previous test results are ignored.
