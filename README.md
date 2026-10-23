@@ -15,12 +15,12 @@ A reversible Magisk module that corrects repeated crop metadata scaling on the *
 | Component | Supported configuration |
 | --- | --- |
 | Device | OnePlus 15T / PLZ110 |
-| LineageOS | `24.0-20261011-NIGHTLY-fairlady`, `24.0-20261014-NIGHTLY-fairlady`, `24.0-20261015-NIGHTLY-fairlady`, `24.0-20261022-NIGHTLY-fairlady` |
+| LineageOS | `24.0-20261011-NIGHTLY-fairlady`<br>`24.0-20261014-NIGHTLY-fairlady`<br>`24.0-20261015-NIGHTLY-fairlady`<br>`24.0-20261022-NIGHTLY-fairlady` |
 | Build ID | `CP2A.260605.016` |
 | Camera paths | Physical rear camera IDs `2` and `3` |
 | Root manager | Magisk 30.7, tested; newer versions must pass the same checks |
 
-The installer and runtime also verify the exact original camera service and camera-library hashes; a listed build whose camera files differ is never patched: a fresh install aborts, and an install that reuses an earlier original backup latches a fault at activation. 20261011 is device-tested. The 20261022 camera files were confirmed byte-identical from the official OTA. 20261014 and 20261015 are listed but rely on these on-device hash checks. See [profile.json](profile.json). KernelSU and APatch are not supported by this package.
+The installer and runtime also verify the exact original camera service and camera-library hashes. See [profile.json](profile.json). KernelSU and APatch are not supported by this package.
 
 ## Install and use
 

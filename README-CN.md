@@ -15,12 +15,12 @@
 | 项目 | 支持范围 |
 | --- | --- |
 | 设备 | OnePlus 15T / PLZ110 |
-| LineageOS | `24.0-20261011-NIGHTLY-fairlady`、`24.0-20261014-NIGHTLY-fairlady`、`24.0-20261015-NIGHTLY-fairlady`、`24.0-20261022-NIGHTLY-fairlady` |
+| LineageOS | `24.0-20261011-NIGHTLY-fairlady`<br>`24.0-20261014-NIGHTLY-fairlady`<br>`24.0-20261015-NIGHTLY-fairlady`<br>`24.0-20261022-NIGHTLY-fairlady` |
 | Build ID | `CP2A.260605.016` |
 | 相机路径 | 物理后摄 ID `2`、`3` |
 | Root 管理器 | 已测试 Magisk 30.7；更高版本仍须通过相同检查 |
 
-安装和运行时还会核对相机服务及相关库的完整哈希；列表内构建如相机文件不同，绝不会被修补：全新安装会中止；沿用旧原版备份的安装则在启用时锁定故障。20261011 已实机验证；20261022 的相机文件已从官方 OTA 核对为逐字节一致；20261014、20261015 已列入，但依赖上述设备端哈希检查。具体见 [profile.json](profile.json)。当前安装包不支持 KernelSU 或 APatch。
+安装和运行时还会核对相机服务及相关库的完整哈希，具体见 [profile.json](profile.json)。当前安装包不支持 KernelSU 或 APatch。
 
 ## 安装与开关
 
