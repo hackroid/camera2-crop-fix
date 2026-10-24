@@ -5,7 +5,7 @@ First stable release. It includes the unreleased 0.4.0-beta.2 changes below, plu
 - Automatic updates: Magisk and APatch check this module's `update.json` on the stable release channel. Beta users install 1.0.0 manually once.
 - APatch 11039 or newer is supported alongside Magisk 30.7 or newer. Not device-tested on APatch. Under APatch, finish module installs, updates and removals with a full reboot, not Soft reboot.
 - Uninstalling no longer leaves a persistent fault when the camera service has not started yet.
-- Known issue: the first boot after a system OTA can latch a fault when `/data` is remounted for the userdata checkpoint. Check it with `control.sh status` and read [architecture and recovery](architecture.md) before clearing it.
+- Known issue: the first boot after a system OTA can latch a fault when `/data` is remounted for the userdata checkpoint. Check it with `control.sh status` and read [architecture and recovery](https://github.com/hackroid/camera2-crop-fix/blob/main/doc/architecture.md) before clearing it.
 
 Builds and evidence:
 
