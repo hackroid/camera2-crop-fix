@@ -23,7 +23,7 @@
 | --- | --- |
 | Build ID | `CP2A.260605.016` |
 | 相机路径 | OnePlus 15T：物理后摄 ID `2`（主摄）、`3`（长焦）<br>OnePlus 15：物理后摄 ID `2`（主摄）、`4`（长焦）；超广角 `3` 不做修正 |
-| Root 管理器 | 已测试 Magisk 30.7；更高版本仍须通过相同检查。APatch 11039 或更新版本（需 Action 功能），尚未实机测试 |
+| Root 管理器 | 已测试 Magisk 30.7；更高版本仍须通过相同检查。APatch 11039 或更新版本（需 Action 功能），已有用户反馈在 OnePlus 15 上正常工作（[#10](https://github.com/hackroid/camera2-crop-fix/issues/10)） |
 
 安装和运行时还会核对相机服务及相关库的完整哈希，具体见 [profile.json](profile.json)。当前安装包不支持 KernelSU。
 

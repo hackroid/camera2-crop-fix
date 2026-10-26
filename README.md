@@ -23,7 +23,7 @@ A reversible Magisk or APatch module that corrects repeated crop metadata scalin
 | --- | --- |
 | Build ID | `CP2A.260605.016` |
 | Camera paths | OnePlus 15T: physical rear camera IDs `2` (main) and `3` (telephoto)<br>OnePlus 15: physical rear camera IDs `2` (main) and `4` (telephoto); ultra-wide `3` is not corrected |
-| Root manager | Magisk 30.7, tested; newer versions must pass the same checks. APatch 11039 or newer (Action support), untested on device |
+| Root manager | Magisk 30.7, tested; newer versions must pass the same checks. APatch 11039 or newer (Action support), reported working on a OnePlus 15 by a user ([#10](https://github.com/hackroid/camera2-crop-fix/issues/10)) |
 
 The installer and runtime also verify the exact original camera service and camera-library hashes. See [profile.json](profile.json). KernelSU is not supported by this package.
 
