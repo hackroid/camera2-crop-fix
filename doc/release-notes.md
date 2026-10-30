@@ -1,3 +1,7 @@
+## 1.0.3
+
+- Add `24.0-20261029-NIGHTLY-fairlady` and `24.0-20261028-NIGHTLY-infiniti` to the exact build allowlist. Native patches, vendor fingerprints and file hash checks are unchanged. The new builds rely on the existing on-device integrity checks; camera behavior testing is pending.
+
 ## 1.0.2
 
 - OnePlus 15: correct the telephoto as well. LineageOS exposes it as camera `4` there, and camera `3` is the ultra-wide ([#10](https://github.com/hackroid/camera2-crop-fix/issues/10)). Earlier versions applied the 15T's layout (main `2`, telephoto `3`) to the OnePlus 15, so its telephoto was never corrected and camera `3` always passed through unchanged. The OnePlus 15 ultra-wide is still not corrected. Not device-tested.

@@ -53,9 +53,9 @@ class AllowlistTests(unittest.TestCase):
                   for device in build.devices(PROFILE)}
         # The 15T telephoto is camera 3; the OnePlus 15 exposes it as 4, with 3 its ultra-wide.
         self.assertEqual(listed, {
-            'fairlady': ([f'24.0-{date}-NIGHTLY-fairlady' for date in ('20261011', '20261014', '20261015', '20261022')],
+            'fairlady': ([f'24.0-{date}-NIGHTLY-fairlady' for date in ('20261011', '20261014', '20261015', '20261022', '20261029')],
                          FAIRLADY, 3),
-            'infiniti': ([f'24.0-{date}-NIGHTLY-infiniti' for date in ('20261014', '20261021')], INFINITI, 4)})
+            'infiniti': ([f'24.0-{date}-NIGHTLY-infiniti' for date in ('20261014', '20261021', '20261028')], INFINITI, 4)})
 
     def test_exact_matches_only(self):
         for script in ('module/control.sh', 'module/customize.sh'):

@@ -24,7 +24,8 @@
         "24.0-20261011-NIGHTLY-fairlady",
         "24.0-20261014-NIGHTLY-fairlady",
         "24.0-20261015-NIGHTLY-fairlady",
-        "24.0-20261022-NIGHTLY-fairlady"
+        "24.0-20261022-NIGHTLY-fairlady",
+        "24.0-20261029-NIGHTLY-fairlady"
       ],
       "vendor_fingerprint": "OnePlus/PLZ110/OP64DDL1:16/BP2A.250605.015/B.40e10d0-1bdc90a-1c00f52:user/release-keys",
       "telephoto_camera_id": 3,
@@ -37,7 +38,8 @@
       "codename": "infiniti",
       "lineage_versions": [
         "24.0-20261014-NIGHTLY-infiniti",
-        "24.0-20261021-NIGHTLY-infiniti"
+        "24.0-20261021-NIGHTLY-infiniti",
+        "24.0-20261028-NIGHTLY-infiniti"
       ],
       "vendor_fingerprint": "OnePlus/CPH2745IN/OP611FL1:16/BP2A.250605.015/B.R4T3.1abf132_aeee51_aea830:user/release-keys",
       "telephoto_camera_id": 4,
