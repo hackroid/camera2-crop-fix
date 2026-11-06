@@ -8,7 +8,7 @@
 
 可开关、可撤销的 Magisk / APatch 模块，用于修正 **OnePlus 15T（PLZ110）与 OnePlus 15 的特定 LineageOS 构建**上的裁切元数据重复缩放。适用于独立打开物理后摄的相机路径，修正预览与静态照片倍率不一致，以及 10× 裁切尺寸过小造成的拍照失败。
 
-**仅在 OnePlus 15T 上实机测试。** OnePlus 15 的适配未经实机测试，已有用户反馈在该机型上未能解决问题（[#10](https://github.com/hackroid/camera2-crop-fix/issues/10)）。
+**维护者仅持有 OnePlus 15T 并进行了实测。** OnePlus 15 用户已确认 v1.0.2 在 APatch 下修正主摄和长焦（[#10](https://github.com/hackroid/camera2-crop-fix/issues/10)）；超广角仍不支持。
 
 **仅适配列出的构建及已核对的设备与系统文件。** 其他版本会被拒绝，即使版本名称相近。
 
@@ -16,8 +16,8 @@
 
 | 设备 | LineageOS |
 | --- | --- |
-| OnePlus 15T / PLZ110 | `24.0-20261011-NIGHTLY-fairlady`<br>`24.0-20261014-NIGHTLY-fairlady`<br>`24.0-20261015-NIGHTLY-fairlady`<br>`24.0-20261022-NIGHTLY-fairlady`<br>`24.0-20261029-NIGHTLY-fairlady` |
-| OnePlus 15 / CPH2745、CPH2747、CPH2749、PLK110 | `24.0-20261014-NIGHTLY-infiniti`<br>`24.0-20261021-NIGHTLY-infiniti`<br>`24.0-20261028-NIGHTLY-infiniti` |
+| OnePlus 15T / PLZ110 | `24.0-20261011-NIGHTLY-fairlady`<br>`24.0-20261014-NIGHTLY-fairlady`<br>`24.0-20261015-NIGHTLY-fairlady`<br>`24.0-20261022-NIGHTLY-fairlady`<br>`24.0-20261029-NIGHTLY-fairlady`<br>`24.0-20261105-NIGHTLY-fairlady` |
+| OnePlus 15 / CPH2745、CPH2747、CPH2749、PLK110 | `24.0-20261014-NIGHTLY-infiniti`<br>`24.0-20261021-NIGHTLY-infiniti`<br>`24.0-20261028-NIGHTLY-infiniti`<br>`24.0-20261104-NIGHTLY-infiniti` |
 
 | 项目 | 支持范围 |
 | --- | --- |
