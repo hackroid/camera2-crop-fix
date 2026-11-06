@@ -1,3 +1,8 @@
+## 1.0.4
+
+- Add `24.0-20261105-NIGHTLY-fairlady` and `24.0-20261104-NIGHTLY-infiniti` to the exact build allowlist. Extracted both official OTAs: cameraserver, both system camera libraries, each device’s camera HAL and vendor fingerprint match the existing profile. Build ID is unchanged. Native patches and all integrity checks are unchanged.
+- Update the OnePlus 15 testing status: the user in [#10](https://github.com/hackroid/camera2-crop-fix/issues/10) confirmed main and telephoto correction with APatch on v1.0.2. Ultra-wide remains unsupported. This does not establish device testing of the newly listed nightly.
+
 ## 1.0.3
 
 - Add `24.0-20261029-NIGHTLY-fairlady` and `24.0-20261028-NIGHTLY-infiniti` to the exact build allowlist. Native patches, vendor fingerprints and file hash checks are unchanged. The new builds rely on the existing on-device integrity checks; camera behavior testing is pending.

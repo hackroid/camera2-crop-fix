@@ -8,7 +8,7 @@
 
 A reversible Magisk or APatch module that corrects repeated crop metadata scaling on the **OnePlus 15T (PLZ110)** and **OnePlus 15** with the listed LineageOS builds. It fixes the mismatch between preview and still-photo magnification on independently opened physical rear cameras, including the crop-size failure at 10×.
 
-**Device-tested only on the OnePlus 15T.** OnePlus 15 support has not been tested on a device, and a user reports that it does not fix the problem there ([#10](https://github.com/hackroid/camera2-crop-fix/issues/10)).
+**Maintainer-tested on the OnePlus 15T.** A OnePlus 15 user confirmed working main and telephoto correction with APatch in v1.0.2 ([#10](https://github.com/hackroid/camera2-crop-fix/issues/10)). Ultra-wide correction remains unsupported.
 
 **Only the listed build identities are supported.** Other builds are rejected, even if their version names look similar.
 
@@ -16,8 +16,8 @@ A reversible Magisk or APatch module that corrects repeated crop metadata scalin
 
 | Device | LineageOS |
 | --- | --- |
-| OnePlus 15T / PLZ110 | `24.0-20261011-NIGHTLY-fairlady`<br>`24.0-20261014-NIGHTLY-fairlady`<br>`24.0-20261015-NIGHTLY-fairlady`<br>`24.0-20261022-NIGHTLY-fairlady`<br>`24.0-20261029-NIGHTLY-fairlady` |
-| OnePlus 15 / CPH2745, CPH2747, CPH2749, PLK110 | `24.0-20261014-NIGHTLY-infiniti`<br>`24.0-20261021-NIGHTLY-infiniti`<br>`24.0-20261028-NIGHTLY-infiniti` |
+| OnePlus 15T / PLZ110 | `24.0-20261011-NIGHTLY-fairlady`<br>`24.0-20261014-NIGHTLY-fairlady`<br>`24.0-20261015-NIGHTLY-fairlady`<br>`24.0-20261022-NIGHTLY-fairlady`<br>`24.0-20261029-NIGHTLY-fairlady`<br>`24.0-20261105-NIGHTLY-fairlady` |
+| OnePlus 15 / CPH2745, CPH2747, CPH2749, PLK110 | `24.0-20261014-NIGHTLY-infiniti`<br>`24.0-20261021-NIGHTLY-infiniti`<br>`24.0-20261028-NIGHTLY-infiniti`<br>`24.0-20261104-NIGHTLY-infiniti` |
 
 | Component | Supported configuration |
 | --- | --- |
