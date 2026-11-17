@@ -1,3 +1,7 @@
+## 1.0.5
+
+- Add `24.0-20261112-NIGHTLY-fairlady` and `24.0-20261111-NIGHTLY-infiniti` to the exact build allowlist. Extracted both official OTAs: cameraserver, both system camera libraries, each device’s camera HAL and vendor fingerprint match the existing profile. Build ID is unchanged. Native patches and all integrity checks are unchanged. OnePlus 15 device testing of the newly listed nightly is pending.
+
 ## 1.0.4
 
 - Add `24.0-20261105-NIGHTLY-fairlady` and `24.0-20261104-NIGHTLY-infiniti` to the exact build allowlist. Extracted both official OTAs: cameraserver, both system camera libraries, each device’s camera HAL and vendor fingerprint match the existing profile. Build ID is unchanged. Native patches and all integrity checks are unchanged.
