@@ -16,8 +16,8 @@
 
 | 设备 | LineageOS |
 | --- | --- |
-| OnePlus 15T / PLZ110 | `24.0-20261011-NIGHTLY-fairlady`<br>`24.0-20261014-NIGHTLY-fairlady`<br>`24.0-20261015-NIGHTLY-fairlady`<br>`24.0-20261022-NIGHTLY-fairlady`<br>`24.0-20261029-NIGHTLY-fairlady`<br>`24.0-20261105-NIGHTLY-fairlady` |
-| OnePlus 15 / CPH2745、CPH2747、CPH2749、PLK110 | `24.0-20261014-NIGHTLY-infiniti`<br>`24.0-20261021-NIGHTLY-infiniti`<br>`24.0-20261028-NIGHTLY-infiniti`<br>`24.0-20261104-NIGHTLY-infiniti` |
+| OnePlus 15T / PLZ110 | `24.0-20261011-NIGHTLY-fairlady`<br>`24.0-20261014-NIGHTLY-fairlady`<br>`24.0-20261015-NIGHTLY-fairlady`<br>`24.0-20261022-NIGHTLY-fairlady`<br>`24.0-20261029-NIGHTLY-fairlady`<br>`24.0-20261105-NIGHTLY-fairlady`<br>`24.0-20261112-NIGHTLY-fairlady` |
+| OnePlus 15 / CPH2745、CPH2747、CPH2749、PLK110 | `24.0-20261014-NIGHTLY-infiniti`<br>`24.0-20261021-NIGHTLY-infiniti`<br>`24.0-20261028-NIGHTLY-infiniti`<br>`24.0-20261104-NIGHTLY-infiniti`<br>`24.0-20261111-NIGHTLY-infiniti` |
 
 | 项目 | 支持范围 |
 | --- | --- |
