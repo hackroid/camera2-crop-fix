@@ -2,9 +2,10 @@
 
 [简体中文](README-CN.md)
 
-> **Upstream bug tracking:** [LineageOS/issues#853](https://github.com/LineageOS/issues/issues/853)
+> [!IMPORTANT]
+> **Fixed in LineageOS. This repository is no longer maintained.**
 >
-> Follow the upstream report for investigation and resolution status.
+> The [upstream fix](https://github.com/LineageOS/issues/issues/853) is included in the OnePlus 15T's [2026-11-26 nightly](https://download.lineageos.org/devices/fairlady/builds). GCam was verified on that build with this module disabled. Once your LineageOS build includes the fix, you can uninstall the module. The releases and instructions below are kept for older builds.
 
 A reversible Magisk or APatch module that corrects repeated crop metadata scaling on the **OnePlus 15T (PLZ110)** and **OnePlus 15** with the listed LineageOS builds. It fixes the mismatch between preview and still-photo magnification on independently opened physical rear cameras, including the crop-size failure at 10×.
 

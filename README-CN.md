@@ -2,9 +2,10 @@
 
 [English](README.md)
 
-> **上游问题跟踪：** [LineageOS/issues#853](https://github.com/LineageOS/issues/issues/853)
+> [!IMPORTANT]
+> **LineageOS 上游已修复，本仓库不再维护。**
 >
-> 调查与修复进展请查看该报告。
+> OnePlus 15T 的 [2026-11-26 nightly](https://download.lineageos.org/devices/fairlady/builds) 已包含[上游修复](https://github.com/LineageOS/issues/issues/853)，并已在停用本模块的情况下实测 GCam。升级到包含修复的构建后即可卸载本模块。旧版发布包及下方说明保留供旧构建参考。
 
 可开关、可撤销的 Magisk / APatch 模块，用于修正 **OnePlus 15T（PLZ110）与 OnePlus 15 的特定 LineageOS 构建**上的裁切元数据重复缩放。适用于独立打开物理后摄的相机路径，修正预览与静态照片倍率不一致，以及 10× 裁切尺寸过小造成的拍照失败。
 
